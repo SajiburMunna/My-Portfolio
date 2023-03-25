@@ -1,10 +1,9 @@
 import Image from 'next/future/image'
-import { NextSeo } from 'next-seo'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-import siteMeta, { projects } from '@/data/siteMeta'
+import { projects } from '@/data/siteMeta'
 function LinkIcon(props) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -23,24 +22,6 @@ export default function Projects() {
 
   return (
     <>
-      <NextSeo
-        title="Projects - Brian Ketelsen"
-        description={siteMeta.description}
-        canonical="https://brian.dev/projects"
-        openGraph={{
-          url: 'https://brian.dev/projects',
-          images: [
-            {
-              url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
-              width: 1200,
-              height: 600,
-              alt: 'Og Image Alt',
-              type: 'image/jpeg',
-            },
-          ],
-          siteName: 'brian.dev',
-        }}
-      />
       <SimpleLayout title={headline} intro={intro}>
         <ul
           role="list"

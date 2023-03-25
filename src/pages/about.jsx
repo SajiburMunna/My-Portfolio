@@ -11,7 +11,6 @@ import {
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/soj-head.jpeg'
 import siteMeta from '@/data/siteMeta'
-import { NextSeo } from 'next-seo'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
