@@ -10,14 +10,7 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
-  MastodonIcon,
 } from '@/components/SocialIcons'
-
-import image3 from '@/images/photos/1102.jpg'
-import image2 from '@/images/photos/20150716-070618871-3.jpg'
-import image1 from '@/images/photos/bike.jpg'
-import image5 from '@/images/photos/band.jpg'
-import image4 from '@/images/photos/BW013.jpg'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -143,33 +136,21 @@ export default function Home({ articles }) {
             Learner, Developer and Frontend Engineer
           </h1>
           <p className="prose mt-6 dark:prose-invert">
-            I’m Brian, and I teach people how to use the Cloud. I’ve been active
-            in Open Source for as long as I’ve been coding &mdash; and that’s a
-            long time.
+            I’m <span className="font-bold">SOJIB HOSSEN</span> ,and passionate
+            software engineer with over one year of experience in designing and
+            developing high-quality, responsive web applications.
           </p>
           <p className="prose mt-6 dark:prose-invert">
-            With some friends, I wrote a{' '}
-            <a href="https://www.manning.com/books/go-in-action">
-              book about the Go programming language
-            </a>
-            . I’ve given many <Link href={'/speaking'}>talks</Link> about Go,
-            Distributed Computing, and programming in general.
+            I have a strong foundation in HTML, CSS, and JavaScript, and have
+            worked extensively with popular frontend frameworks and platforms
+            such as React, Next Js, and Shopify.
           </p>
-          <p className="prose mt-6 dark:prose-invert">
-            Poke around and see what I’m up to. It’s all open source, so feel
-            free to contribute.
-          </p>
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href={siteMeta.author.twitter}
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
-            />
-            <SocialLink
-              href={siteMeta.author.mastodon}
-              aria-label="Follow on Mastodon"
-              icon={MastodonIcon}
-              rel="me"
             />
 
             <SocialLink

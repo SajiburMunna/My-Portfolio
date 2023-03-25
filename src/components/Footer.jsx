@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import siteMeta from '@/data/siteMeta';
+import siteMeta from '@/data/siteMeta'
 import { Container } from '@/components/Container'
 
 function NavLink({ href, children }) {
   return (
     <Link
       href={href}
-      className="transition hover:text-teal-500 dark:hover:text-teal-400"
+      className="transition hover:text-yellow-500 dark:hover:text-yellow-400"
     >
       {children}
     </Link>
@@ -25,10 +25,9 @@ export function Footer() {
                 <NavLink href="/projects">Projects</NavLink>
                 <NavLink href="/speaking">Speaking</NavLink>
                 <NavLink href="/uses">Uses</NavLink>
-                <NavLink href="/liam">Liam</NavLink>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-300">
-                  &copy; {new Date().getFullYear()} {siteMeta.copyright} 
+                &copy; {new Date().getFullYear()} {siteMeta.copyright}
               </p>
             </div>
           </Container.Inner>

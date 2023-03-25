@@ -4,22 +4,19 @@ import logoGolang from '@/images/logos/icons8-golang.svg'
 import logoKubernetes from '@/images/logos/kubernetes.svg'
 import logoCaptainhook from '@/images/logos/captainhook.svg'
 const siteMeta = {
-  title: 'Brian Ketelsen',
+  title: 'Sojib Hossen',
   description:
-    'Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.',
-  copyright: 'Brian Ketelsen, CC-BY-SA',
+    'SOJIB HOSSEN is a Software Engineer, who is passionate about building software and learning new technologies. He is currently working as a Software Engineer at Jouleslabs. He is also a Javascript enthusiast. He loves to write about his experiences and share his knowledge with other',
+  copyright: 'Sojib Hossen, Dhaka-1207, Bangladesh',
   author: {
-    name: 'Brian Ketelsen',
-    email: 'me@brian.dev',
-    twitter: 'https://twitter.com/bketelsen',
-    mastodon: 'https://tty0.social/@bketelsen',
-    instagram: 'https://instagram.com/bketelsen',
-    github: 'https://github.com.com/bketelsen',
-    linkedin: 'https://linkedin.com/in/brianketelsen',
-    twitch: 'https://twitch.tv/bketelsen',
-    youtube: 'https://youtube.com/@bketelsen',
+    name: 'Sojib Hossen',
+    email: 'sajiburmunna087@gmail.com',
+    twitter: 'https://twitter.com/SajiburM?t=P8nwNL7EPwbiBToRBcVFKQ&s=09',
+    instagram: 'https://instagram.com/saji_b087?igshid=ZDdkNTZiNTM=',
+    github: 'https://github.com/SajiburMunna',
+    linkedin: 'https://www.linkedin.com/in/sojib-hossen-627233176',
   },
-  siteUrl: 'https://brian.dev',
+  siteUrl: 'https://sajiburmunna.dev',
 }
 export const resume = [
   {

@@ -8,7 +8,6 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
-  MastodonIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/soj-head.jpeg'
 import siteMeta from '@/data/siteMeta'
@@ -19,9 +18,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-yellow-500 dark:text-zinc-200 dark:hover:text-yellow-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-yellow-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -42,24 +41,6 @@ function MailIcon(props) {
 export default function About() {
   return (
     <>
-      <NextSeo
-        title="About - Brian Ketelsen"
-        description={siteMeta.description}
-        canonical="https://brian.dev/about"
-        openGraph={{
-          url: 'https://brian.dev/about',
-          images: [
-            {
-              url: `https://og.brian.dev/api/og?title=About&desc=${siteMeta.description}`,
-              width: 1200,
-              height: 600,
-              alt: 'Og Image Alt',
-              type: 'image/jpeg',
-            },
-          ],
-          siteName: 'brian.dev',
-        }}
-      />
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
@@ -133,13 +114,7 @@ export default function About() {
               <SocialLink href={siteMeta.author.twitter} icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink
-                href={siteMeta.author.mastodon}
-                icon={MastodonIcon}
-                className="mt-4"
-              >
-                Follow on Mastodon
-              </SocialLink>
+
               <SocialLink
                 href={siteMeta.author.instagram}
                 icon={InstagramIcon}
