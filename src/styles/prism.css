@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
+
 pre[class*='language-'] {
   color: theme('colors.zinc.50');
 }
@@ -71,7 +73,7 @@ pre[class*='language-'] {
 }
 /* Code title styles */
 .remark-code-title {
-  @apply rounded-t bg-slate-700 mb-0 px-5 py-3 font-mono text-sm font-bold text-zinc-200;
+  @apply mb-0 rounded-t bg-slate-700 px-5 py-3 font-mono text-sm font-bold text-zinc-200;
 }
 
 .remark-code-title + div > pre {
@@ -102,4 +104,8 @@ pre[class*='language-'] {
 .line-number::before {
   @apply mr-4 -ml-2 inline-block w-4 text-right text-zinc-400;
   content: attr(line);
+}
+
+p {
+  font-family: 'IBM Plex Mono', monospace;
 }
