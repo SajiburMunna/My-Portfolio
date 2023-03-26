@@ -33,9 +33,9 @@ function Article({ article }) {
 }
 
 export default function ArticlesIndex({ articles }) {
-  const headline = 'I write about things I’m learning and things I’m building.'
+  const headline = 'I write about things I’m learning and building.'
   const intro =
-    'All of my long-form thoughts on programming, leadership, infrastructure, and more, collected in chronological order.'
+    'As a developer, I’m constantly learning and building new things. In this article series, I share my insights and experiences as I navigate the world of coding and software development.'
 
   return (
     <>
