@@ -54,57 +54,40 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              This SOJIB HOSSEN. He lives in Dhaka, who is passionate about
-              building software and learning new technologies
+              Who is passionate about building software and learning new
+              technologies ...
             </h1>
             <div className="prose mt-6 space-y-7 text-lg text-zinc-600 dark:prose-invert dark:text-zinc-400">
               <p>
-                Howdy! Thanks for stopping by. I’m Brian and I’ve been doing
-                technology things since{' '}
-                <a href="https://en.wikipedia.org/wiki/Acoustic_coupler">
-                  acoustic modem couplers
-                </a>{' '}
-                were a thing. I love Open Source and exploring different
-                programming languages. Some highlights about me and my
-                activities:
-              </p>
-              <p>
-                <b>Army Veteran:</b> Bradley Fighting Vehicle Gunner, Infantry,
-                1st Armored Division
-              </p>
-              <p>
-                <b>
-                  Father of <s>four</s> five
-                </b>{' '}
-                with <s>19</s> 21 years difference between oldest and youngest
-                child
-              </p>
-              <p>
-                <b>Co-founded GopherCon</b>{' '}
-                <a href="https://gophercon.com">
-                  the largest conference for Go developers
-                </a>
-                .
-              </p>
-              <p>
-                <b>Co-authored</b>{' '}
-                <a href="https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781">
-                  Go In Action
-                </a>{' '}
-                for Manning Publishing.
-              </p>
-              <p>
-                <b>Co-wrote</b> Skynet and SkyDNS with Erik St. Martin, which
-                was eventually morphed into the DNS service discovery that
-                powers Kubernetes.
-              </p>
-              <p>
-                <b>Contributed</b> to the largest projects that power the
-                Internet. Go, Kubernetes, Etcd, and so many more.
-              </p>
-              <p>
-                I love Open Source, learning in public, and sharing what I learn
-                with others.
+                Howdy! Thanks for stopping here. I’m Sojib Hossen a frontend
+                software engineer currently based in Dhaka, Bangladesh. I was
+                born and raised in Magura, Bangladesh, where I developed a
+                strong passion for programming from a young age. I completed my
+                Bachelor of Science in Computer Science and Engineering from
+                Bangladesh University of Business and Technology, one of the top
+                universities in Bangladesh.
+                <br /> As a frontend software engineer, I am passionate about
+                creating intuitive and user-friendly web applications that
+                provide a seamless user experience. I have over 1 year of
+                experience in developing responsive and dynamic web applications
+                that adhere to modern web standards and best practices. I am
+                skilled in JavaScript,Typescript and React, and have experience
+                working with various frameworks and libraries. In my current
+                role as a frontend software engineer, I am responsible for
+                collaborating with the design team to develop and implement new
+                features for our company&apos;s web application. I ensure that
+                the web pages are responsive, user-friendly, and adhere to
+                modern web standards. I have experience conducting code reviews
+                and providing constructive feedback to team members to improve
+                code quality.
+                <br /> Outside of work, I enjoy staying up to date with the
+                latest web development trends and technologies. I also enjoy
+                reading books, playing video games, and spending time with
+                family and friends. I am excited to continue growing my skills
+                as a frontend software engineer and am passionate about creating
+                innovative solutions that make a difference. Thank you for
+                taking the time to learn more about me, and I look forward to
+                connecting with you soon.
               </p>
             </div>
           </div>

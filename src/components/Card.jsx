@@ -52,6 +52,21 @@ Card.Description = function CardDescription({ children }) {
   )
 }
 
+Card.Contribution = function CardDescription({ children }) {
+  return (
+    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+      {children}
+    </p>
+  )
+}
+Card.Technology = function CardDescription({ children }) {
+  return (
+    <p className="relative z-10 mt-2 text-sm text-zinc-600 group-hover:font-bold group-hover:text-black dark:text-zinc-400">
+      Technologies: {children}
+    </p>
+  )
+}
+
 Card.Cta = function CardCta({ children }) {
   return (
     <div

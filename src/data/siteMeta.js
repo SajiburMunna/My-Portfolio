@@ -1,8 +1,7 @@
 import Jouelslabs from '@/images/logos/jouleslabs.png'
-import logoVanilla from '@/images/logos/vanilla.svg'
-import logoGolang from '@/images/logos/icons8-golang.svg'
-import logoKubernetes from '@/images/logos/kubernetes.svg'
-import logoCaptainhook from '@/images/logos/captainhook.svg'
+import fundednext from '@/images/logos/fundednext.svg'
+import reviewxpo from '@/images/logos/reviewxpo.svg'
+
 const siteMeta = {
   title: 'Sojib Hossen',
   description:
@@ -32,36 +31,26 @@ export const resume = [
 ]
 export const projects = [
   {
-    name: 'Vanilla OS',
+    name: 'FundedNext',
+    contribution: 'Contribution as a Frontend Developer at Jouleslabs',
     description:
-      'Vanilla OS is an immutable and atomic Ubuntu Linux-based Point Release distribution, that receives updates at the right time, neither before nor after, without sacrificing security and functionality.',
-    link: { href: 'https://vanillaos.org', label: 'vanillaos.org' },
-    logo: logoVanilla,
+      'FundedNext is a prop trading firm for skilled traders worldwide! Join our funded trader program and start making money right away',
+    techonlogies: 'Next.js, Material UI, Restful API, Redux, Stripe, etc',
+    link: { href: 'https://app.fundednext.com/', label: 'app.fundednext.com' },
+    logo: fundednext,
   },
   {
-    name: 'Captain Hook',
+    name: 'ReviewXpo',
+    contribution: 'Contribution as a Frontend Developer at Jouleslabs',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'ReviewXpo is a reviews app for Shopify that helps gather reviews and user-generated photos, and videos from customers.',
+    techonlogies:
+      'NextJs, Typescript, Tailwind CSS, RESTful API,Shopify, Liquid, React Query',
     link: {
-      href: 'https://github.com/bketelsen/captainhook',
-      label: 'github.com',
+      href: 'https://reviewxpo.com',
+      label: 'reviewxpo.com',
     },
-    logo: logoCaptainhook,
-  },
-  {
-    name: 'Kubernetes',
-    description: 'Production-Grade Container Scheduling and Management',
-    link: {
-      href: 'https://github.com/kubernetes/kubernetes',
-      label: 'github.com',
-    },
-    logo: logoKubernetes,
-  },
-  {
-    name: 'Go',
-    description: 'Build fast, reliable, and efficient software at scale',
-    link: { href: 'https://go.dev', label: 'go.dev' },
-    logo: logoGolang,
+    logo: reviewxpo,
   },
 ]
 
