@@ -159,16 +159,18 @@ function Newsletter() {
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
         I am ready to discuss with you anything
       </p>
-      <div className="mt-6 flex">
+      <div className="mt-6 sm:flex">
         <div className="min-w-0 rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">
-          <p className="">{siteMeta.author.email}</p>
+          <p className="break-words">{siteMeta.author.email}</p>
         </div>
         <a
           href={`mailto:${siteMeta.author.email}`}
           target="_blank"
           rel="noreferrer"
         >
-          <Button className="ml-4 flex-none">Let&rsquo;s Talk</Button>
+          <Button className="mt-4 w-full flex-none sm:ml-4 sm:mt-0">
+            Let&rsquo;s Talk
+          </Button>
         </a>
       </div>
     </div>
