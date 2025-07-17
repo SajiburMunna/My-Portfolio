@@ -180,10 +180,10 @@ function Newsletter() {
 export default function Home({ articles }) {
   return (
     <>
-      <Container className="mt-9">
+      <Container className="mt-9 ">
         <div className="max-w-2xl text-lg">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Learner,Developer and Frontend Engineer
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100  sm:text-5xl">
+            Learner,Developer and Frontend Engineer.
           </h1>
           <p className="prose mt-6 dark:prose-invert">
             I’m <span className="font-bold">SOJIB HOSSEN</span> ,and passionate
